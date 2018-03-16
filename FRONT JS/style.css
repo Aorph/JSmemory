@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: lightyellow;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 20%;
+  height: 40px;
+  font-size: 20px;
+}
+
+.div {
+  display: flex;
+  background-color: lightgrey;
+  background-repeat: no-repeat;
+  width : 24.5%;
+  border: 1px solid black;
+  width: 247px;
+  height: 130px;
+}
+
+#mainDiv {
+  display: none;
+  flex-direction: row;
+  width: 1000px;
+  height: 650px;
+  flex-wrap: wrap;
+}
