@@ -7,7 +7,7 @@ $(document).ready(function() {
   $('[data-action="launchGame"]').on('click', function() {
     $.get('http://192.168.33.76:3000/init', function(data) {
       document.getElementById('mainDiv').style.display = "flex";
-    })
+    });
   });
   function play() {
     if ($(this).children('img').length == 0) {
